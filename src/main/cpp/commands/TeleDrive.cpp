@@ -14,7 +14,7 @@ void TeleDrive::Execute() {
 	if (m_controller->GetLeftBumper()) {
 		m_speedMult = 1.0;
 	} else {
-		m_speedMult = 0.75;
+		m_speedMult = 0.5;
 	}
 
 	if (m_controlType == TeleDrive::Control::kTank) {
